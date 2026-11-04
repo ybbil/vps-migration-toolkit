@@ -1,0 +1,39 @@
+kind	name	action	expected_id	expected_primary_gid	reason
+user	debian	custom-create	1000	1000	default administrative account required for target administration
+user	vmail	custom-create	5000	5000	virtual-mail ownership account
+user	vscode_newapi	custom-create	5001	5001	application SFTP/runtime account
+user	deployHookMail	custom-create	1004	1004	mail deployment account
+user	deploy_kolelerev_mail	custom-create	1006	1006	mail deployment account
+user	mysql_tunnel	custom-create	1007	1007	database tunnel service account
+user	api_editor	custom-create	1010	1010	active application deployment account; docker membership omitted
+user	api_dev_editor	custom-create	1011	1011	active development API account
+user	tools_dev	custom-create	1012	1012	development tools account
+user	Yair1	omit	1002	1002	approved inactive-account omission
+user	user1	omit	1001	1001	approved inactive-account omission
+user	deploy	omit	1003	1003	approved inactive-account omission
+user	mz	omit	1008	1008	approved inactive-account omission
+user	mz-vscode	omit	1009	1009	approved inactive-account omission
+user	api_refactor	omit	1013	1013	approved inactive-account omission
+user	deploy_kolelerev_mal	omit	1005	1005	approved inactive-account omission
+group	debian	custom-create	1000		primary group for debian
+group	vmail	custom-create	5000		primary group for vmail
+group	sftpusers	custom-create	5001		primary group for vscode_newapi
+group	deployHookMail	custom-create	1004		primary group for deployHookMail
+group	deploy_kolelerev_mail	custom-create	1006		primary group for deploy_kolelerev_mail
+group	mysql_tunnel	custom-create	1007		primary group for mysql_tunnel
+group	api_editor	custom-create	1010		primary group for api_editor
+group	api_dev_editor	custom-create	1011		primary group for api_dev_editor
+group	tools_dev	custom-create	1012		primary group for tools_dev
+group	mailhooks	custom-create	989		custom mail hook group
+group	docker	omit	112		approved omission until Docker is needed
+group	adm	package-verify	4		base system group
+group	dialout	package-verify	20		base system group
+group	cdrom	package-verify	24		base system group
+group	floppy	package-verify	25		base system group
+group	sudo	package-verify	27		base system group
+group	audio	package-verify	29		base system group
+group	dip	package-verify	30		base system group
+group	www-data	package-verify	33		web-server package group
+group	video	package-verify	44		base system group
+group	plugdev	package-verify	46		base system group
+group	users	package-verify	100		base system group

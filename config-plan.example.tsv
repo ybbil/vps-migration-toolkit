@@ -1,0 +1,4 @@
+staged_relative_path	target_path	action	owner_uid	owner_gid	mode	component
+etc/apache2/sites-available/example.conf	/etc/apache2/sites-available/example.conf	merge	0	0	644	apache
+etc/systemd/system/example.service	/etc/systemd/system/example.service	install	0	0	644	systemd
+etc/cron.d/example	/etc/cron.d/example	install	0	0	644	cron

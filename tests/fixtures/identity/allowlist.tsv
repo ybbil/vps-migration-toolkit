@@ -1,0 +1,3 @@
+kind	name	action	expected_id	expected_primary_gid	reason
+group	zzmigfixturegrp	custom-create	59990		synthetic fixture
+user	zzmigfixture	custom-create	59990	59990	synthetic fixture

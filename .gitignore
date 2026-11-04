@@ -1,0 +1,40 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets/
+.secret/
+
+# Migration exports and generated payloads
+exports/
+backups/
+staging/
+artifacts/
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.zip
+
+# Runtime and editor files
+*.log
+*.tmp
+*.pid
+*.swp
+.DS_Store
+.vscode/
+.idea/
+
+# Generated reports tied to a specific server or run
+hostinger-firewall-snapshot-*.json
+hostinger-firewall-rules-*.csv
+hostinger-firewall-dry-run-*.tsv
+hostinger-firewall-dry-run-*.json
+target-firewall-dry-run-*.tsv
+target-firewall-dry-run-*.json
+mariadb-preflight-*.tsv

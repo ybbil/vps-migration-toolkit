@@ -1,0 +1,2 @@
+source_path	class	restore_path	mutable	excludes
+/var/lib/mysql	forbidden	/var/lib/mysql	yes	

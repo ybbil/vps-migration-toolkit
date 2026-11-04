@@ -1,0 +1,23 @@
+source_path	class	restore_path	mutable	excludes
+/etc/apache2	config	/etc/apache2	no	
+/etc/php	config	/etc/php	no	
+/etc/mysql	config	/etc/mysql	no	
+/etc/postfix	mail-config	/etc/postfix	no	sasl_passwd*
+/etc/dovecot	mail-config	/etc/dovecot	no	private/*
+/etc/opendkim	mail-config	/etc/opendkim	no	keys/*
+/etc/roundcube	mail-config	/etc/roundcube	no	*db*.php;config.inc.php
+/etc/postfixadmin	mail-config	/etc/postfixadmin	no	*config*.php
+/etc/ssh	security-config	/etc/ssh	no	ssh_host_*_key
+/etc/systemd/system	automation	/etc/systemd/system	no	
+/etc/cron.d	automation	/etc/cron.d	no	
+/var/spool/cron/crontabs	automation	/var/spool/cron/crontabs	no	
+/etc/ufw	security-policy	/etc/ufw	no	
+/etc/fail2ban	security-policy	/etc/fail2ban	no	
+/etc/apparmor.d	security-policy	/etc/apparmor.d	no	cache/*
+/etc/audit	security-policy	/etc/audit	no	
+/etc/hosts	system-config	/etc/hosts	no	
+/etc/hostname	system-config	/etc/hostname	no	
+/etc/fstab	system-config	/etc/fstab	no	
+/etc/sysctl.d	system-config	/etc/sysctl.d	no	
+/etc/default/opendkim	mail-config	/etc/default/opendkim	no	
+/etc/letsencrypt/renewal	tls-config	/etc/letsencrypt/renewal	no	

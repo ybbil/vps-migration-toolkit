@@ -1,0 +1,9 @@
+source_path	class	restore_path	mutable	excludes
+/var/www	application	/var/www	yes	.git/cache;*/tmp/*
+/var/mail	mail	/var/mail	yes	
+/var/mail-hooks-data	mail-hooks	/var/mail-hooks-data	yes	
+/opt/radio	application	/opt/radio	yes	tmp/*
+/opt/git-auto-push	application	/opt/git-auto-push	no	
+/home/tools_dev/projects	application	/home/tools_dev/projects	yes	
+/srv/finance	conditional	/srv/finance	no	
+/var/openproject	conditional	/var/openproject	no	

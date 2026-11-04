@@ -1,0 +1,5 @@
+project_path	manager	install_mode	action
+/var/www/yeshivatrabenu/NewApi	composer	production	install
+/var/www/yeshivatrabenu/NewApi/Tnuot	npm	production	install
+/var/www/yeshivatrabenu/NewApi_dev	composer	development	install
+/var/www/WorkHours/LearnHours	npm	production	install

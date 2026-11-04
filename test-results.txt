@@ -1,0 +1,38 @@
+status	test	detail
+PASS	bash-syntax	all toolkit scripts
+PASS	hostinger-firewall	mock success/rerun, CSV VPS isolation, unassigned export, duplicate, strict management coverage/anti-any, sync-polling, disconnect and partial-failure recovery guards
+PASS	identity-contract	export/import payload schemas and checksums agree
+PASS	target-marker-binding	expected non-zero exit
+PASS	target-marker-positive	hostname and machine-id binding accepted only when exact
+PASS	scoped-approval	action, hostname, machine-id and protected approval file accepted
+PASS	scoped-approval-wrong-action	expected non-zero exit
+PASS	dual-role-rejected	expected non-zero exit
+PASS	report-no-overwrite	expected non-zero exit
+PASS	report-symlink-component	expected non-zero exit
+PASS	common-path-guards	report overwrite and symlink traversal rejected
+PASS	cleanup-tree	canonical scoped tree removed without following symlinks
+PASS	sudo-payload-rejected	expected non-zero exit
+PASS	package-account-ssh-rejected	expected non-zero exit
+PASS	identity-dry-run	synthetic custom identity planned without mutation
+PASS	identity-export-preflight	synthetic allowlist validated without shadow read or export
+PASS	identity-collision	expected non-zero exit
+PASS	content-positive	checksums and symlink targets match
+PASS	content-negative	expected non-zero exit
+PASS	retired-restore-files	expected non-zero exit
+PASS	retired-build-config-plan	expected non-zero exit
+PASS	retired-restore-configs	expected non-zero exit
+PASS	retired-restore-secrets	expected non-zero exit
+PASS	identity-apply-guard	expected non-zero exit
+PASS	retired-apt-sources	expected non-zero exit
+PASS	package-dry-run	exact installed version recognized without installation
+PASS	package-apply-guard	expected non-zero exit
+PASS	mariadb-backup-preflight	synthetic versions and remote gate passed without DB or network access
+PASS	mariadb-restore-dry-run	synthetic archive checksum, target version and capacity preflight passed
+PASS	retired-project-dependencies	expected non-zero exit
+PASS	retired-security-policy	expected non-zero exit
+PASS	retired-mail-plan	expected non-zero exit
+PASS	retired-automation	expected non-zero exit
+PASS	retired-sync-files	expected non-zero exit
+PASS	retired-export-secrets	expected non-zero exit
+PASS	shellcheck	MariaDB/common safety scope; no warnings or errors
+SUMMARY	all	PASS

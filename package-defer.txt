@@ -1,0 +1,5 @@
+# Deferred until the restored target is stable and a separate approval is given.
+packages-microsoft-prod
+dotnet-sdk-10.0
+aspnetcore-runtime-10.0
+google-cloud-cli

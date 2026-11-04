@@ -1,0 +1,16 @@
+{
+  "firewalls": [
+    {
+      "name": "target-bootstrap-ssh-wireguard",
+      "virtual_machine_ids": [2119375],
+      "rules": [
+        {"protocol": "TCP", "port": "22", "source": "custom", "source_detail": "213.137.0.0/16"},
+        {"protocol": "TCP", "port": "22", "source": "custom", "source_detail": "147.234.0.0/16"},
+        {"protocol": "TCP", "port": "22", "source": "custom", "source_detail": "46.31.0.0/16"},
+        {"protocol": "TCP", "port": "22", "source": "custom", "source_detail": "185.24.0.0/16"},
+        {"protocol": "TCP", "port": "22", "source": "custom", "source_detail": "72.61.138.158/32"},
+        {"protocol": "UDP", "port": "443", "source": "any", "source_detail": "any"}
+      ]
+    }
+  ]
+}

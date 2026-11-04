@@ -1,0 +1,5 @@
+source_path	class	restore_path	mutable	excludes
+/var/mail	maildir	/var/mail	yes	
+/var/mail-hooks-data	mail-hooks	/var/mail-hooks-data	yes	
+/var/www/mail-hooks	mail-hooks-code	/var/www/mail-hooks	yes	config.local.php
+/var/spool/postfix	postfix-queue	/var/spool/postfix	yes	pid/*;private/*;public/*
